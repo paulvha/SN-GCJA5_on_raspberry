@@ -6,7 +6,7 @@ Software to connect an SN-GCJA5 with a Raspberry Pi using I2C or Serial. It is a
 read and display data from an SN-GCJA5. The monitor can optionally be
 extended to include an SDS011 monitor and provide common output.
 
-<br> A detailed description of the options and findings are in sngcja5_on_raspberry.odt in the extras folder
+<br> A detailed description of the options and findings are in [sngcja5_on_raspberry.odt](extras/sngcja5_on_raspberry.odt) in the extras folder
 
 <br> There is also a [library version](https://github.com/paulvha/SN-GCJA5) for the Arduino-variants
 
