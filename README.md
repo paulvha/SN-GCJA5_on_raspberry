@@ -40,7 +40,7 @@ is not needed. See 3.1.4 for setting the parameter of the document.
 5. sudo make check
 6. sudo make install
 
-To compile the program, go in the directory and type
+To compile the program, go in the directory and type:
     make
 
 To create a build the SN-GCJA5 with SDS011 monitor (in case you have one):
