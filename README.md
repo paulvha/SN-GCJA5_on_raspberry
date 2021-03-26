@@ -31,7 +31,7 @@ Install latest from BCM2835 from : http://www.airspayce.com/mikem/bcm2835/
 
 Note :
 In case you only want to use serial communication, the BCM2835 library
-is not needed. See 3.1.4 for setting the parameter of the document.
+is not needed. See 3.1.5 for setting the parameter of the document.
 
 1. wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.68.tar.gz
 2. tar -zxf bcm2835-1.68.tar.gz     // 1.68 was version number at the time of writing
@@ -52,6 +52,15 @@ type ./gcja5 -h and/or see the detailed document
 
 ## Versioning
 
+### version 2.0 / March 2021 / paulvha
+ * added SetI2cDevice(), SetI2cExit()
+ * added option to use kernel device (/dev/i2c-x)
+ * change SetI2cClock() call
+ * change begin() and all I2C-calls to support kernel device
+ * change INCLUDE_SERIAL, INCLUDE_BCM2835_I2C, INCLUDE_KERNEL_I2C
+ * update to documentation
+ * update to makefile
+
 ### version 1.0 / NOvember 2020
  * Initial version for Raspberry Pi 4 with PI-OS / Buster
 
@@ -63,5 +72,3 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE 3.0
 
 ## Acknowledgements
 Make sure to read the datasheet from Panasonic (also in extras).
-
-

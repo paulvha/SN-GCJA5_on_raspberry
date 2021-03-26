@@ -52,11 +52,11 @@ gcja5 : $(OBJ)
 clean :
 	rm -f gcja5 sds011/sds011_lib.o sds011/serial.o sds011/sdsmon.o $(OBJ)
 
-# gcja5.o is removed as this is only impacted by including
+# remove as this is only impacted by including
 newgcja5 :
-	rm -f gcja5.o
+	rm -f *.o
 	
-# first execute newsps then build sps30
+# first execute newsps then build gcja5
 fresh : newgcja5 gcja5
 
 
